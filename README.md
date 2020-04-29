@@ -1,6 +1,6 @@
 # Comandos básicos de Mongodb
 
-_He realizado este documento para que los interesados en Mongodb puedan saber los comandos básicos._
+_He realizado este documento para que los interesados en Mongodb puedan disponer de los comandos básicos._
 
 ## Conocimientos previos 📋
 
@@ -83,6 +83,11 @@ _Busca todos los datos que tiene una colección y los muestra de forma bonita._
 
 ```
 db.collection_name.find().pretty() / db.producto.find().pretty()
+```
+_Para hacer una consulta, es tan sencillo como hacer lo siguiente. Además, dentro del find() se pueden añadir múltiples atributos._
+
+```
+db.collection_name.find({"tupla":"data"}) / db.producto.find({"producto":"monitor"})
 ```
 
 # 🛠️🛠️🛠️🛠️🛠️EN CONSTRUCCIÓN 🛠️🛠️🛠️🛠️🛠️
